@@ -1,0 +1,42 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+ body{
+      color: rgb(28, 182, 136);
+     font-family: 'Roboto Mono', monospace;
+     height: 100%;
+     width: 100%;
+     background-image: url('img/remake3.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center center;
+
+ }
+
+
+.caja .clock{
+    position: fixed;
+    text-align: center;
+    color: rgb(52, 206, 173);
+}
+.caja{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 2.1rem;
+    margin-top: 150px;
+}
+.audio{
+       width: 70%;
+    
+    margin: 30px auto;
+    text-align: center;
+}
+@media only screen and (max-width: 1100px){
+    body{
+        background-image: url('img/backgrounMovile.jpg');
+    }
+    .caja{
+        font-size: 1.3em;
+    }
+}
